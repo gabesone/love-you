@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
   // setInterval to keep call the playMusic()
   setInterval(playMusic, 1000);
 
-  const startDate = new Date("August 25, 2023 14:00:00");
+  const startDate = new Date("August 25, 2023 20:00:00");
   const startTime = startDate.getTime();
 
   let newDate = new Date();
