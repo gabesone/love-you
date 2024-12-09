@@ -30,12 +30,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
     difference = difference - minute * 60;
     let seconds = difference;
 
-    let f_year = year > 1 ? year + " anos" : "1 ano";
-    let f_month = month > 1 ? month + " meses" : "1 mês";
-    let f_day = day > 1 ? day + " dias" : "1 dia";
-    let f_hour = hour > 1 ? hour + " horas" : "1 hora";
-    let f_minute = minute > 1 ? minute + " minutos" : "1 minuto";
-    let f_seconds = seconds > 1 ? seconds + " segundos" : "1 segundo";
+    let f_year = year > 1 ? year + " anos" : year + " ano";
+    let f_month = month > 1 ? month + " meses" : month + " mês";
+    let f_day = day > 1 ? day + " dias" : day + " dia";
+    let f_hour = hour > 1 ? hour + " horas" : hour + " hora";
+    let f_minute = minute > 1 ? minute + " minutos" : minute + " minuto";
+    let f_seconds = seconds > 1 ? seconds + " segundos" : seconds + " segundo";
 
     document.querySelector("#time_1").textContent =
       f_year + ", " + f_month + ", " + f_day;
